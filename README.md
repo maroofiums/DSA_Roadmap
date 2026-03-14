@@ -2,7 +2,7 @@
 
 ---
 
-## **Week 1: Arrays & Strings** *(unchanged)*
+## **Week 1: Arrays & Strings**
 
 | Day | Topic / Pattern   | Concepts & Patterns                   | Practice Problems                                                         |
 | --- | ----------------- | ------------------------------------- | ------------------------------------------------------------------------- |
@@ -18,7 +18,7 @@
 
 ---
 
-## **Week 2: Linked Lists & Hashing** *(Day 1 untouched)*
+## **Week 2: Linked Lists & Hashing** 
 
 | Day | Topic / Pattern               | Concepts & Patterns                                     | Practice Problems                                                                                     |
 | --- | ----------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
