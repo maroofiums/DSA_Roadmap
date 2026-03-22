@@ -1,178 +1,292 @@
-# 📅 DAY 1 — Array Basics + Two Sum (Execution Plan)
-
-## 🎯 Today’s Target
-
-By the end of today, you must:
-
-* Understand **why brute force is bad**
-* Learn **HashMap thinking**
-* Solve **Two Sum without memorizing code**
+# 🚀 12-WEEK DSA ROADMAP
 
 ---
 
-# 🧠 Step 1 — Array Thinking (15–20 min)
+# 🟢 WEEK 1 — Arrays Basics
 
-Before coding, fix your mindset:
+### 🎯 Focus:
 
-👉 Array = continuous memory + index-based access
-👉 Most problems = **loop + condition**
+* Traversal
+* Min/Max
+* Prefix sum basics
 
-### Practice mentally:
+### 🧠 Learn:
 
-Given:
+* How arrays work internally
+* Time complexity (O(n), O(n²))
 
-```
-[2, 7, 11, 15]
-```
+### 🔥 Problems:
 
-Think:
-
-* How do I access each element?
-* How do I compare elements?
-
----
-
-# 🔥 Step 2 — Two Sum (Core Problem)
-
-### Problem:
-
-Find 2 numbers such that:
-
-```
-nums[i] + nums[j] = target
-```
+* Two Sum
+* Maximum Subarray
+* Best Time to Buy/Sell Stock
+* Contains Duplicate
 
 ---
 
-## ❌ Brute Force Thinking (IMPORTANT)
+# 🟢 WEEK 2 — Strings + Hashing
 
-```python
-for i in range(n):
-    for j in range(i+1, n):
-        if nums[i] + nums[j] == target:
-            return [i, j]
-```
+### 🎯 Focus:
 
-### ❗ Understand:
+* Frequency maps
+* Character-based problems
 
-* You are checking **every pair**
-* Time complexity = **O(n²)**
+### 🧠 Learn:
 
-👉 This is your **baseline thinking**
+* HashMap usage
+* Counting patterns
 
----
+### 🔥 Problems:
 
-## ✅ Optimized Thinking (REAL LEARNING)
-
-### Key Idea:
-
-Instead of checking later…
-
-👉 “Can I know the answer BEFORE I reach it?”
+* Valid Anagram
+* Group Anagrams
+* Longest Substring Without Repeating
+* First Unique Character
 
 ---
 
-### 💡 Core Logic:
+# 🟢 WEEK 3 — Two Pointers + Sliding Window ⭐
 
-For each number:
+### 🎯 Focus:
 
-```
-complement = target - current
-```
+* Window expansion/shrinking
 
-👉 Check:
+### 🧠 Learn:
 
-* “Have I already seen this complement?”
+* When to use sliding window
+* Optimizing brute force
 
----
+### 🔥 Problems:
 
-## ✅ HashMap Solution
-
-```python
-def twoSum(nums, target):
-    hashmap = {}
-
-    for i, num in enumerate(nums):
-        complement = target - num
-
-        if complement in hashmap:
-            return [hashmap[complement], i]
-
-        hashmap[num] = i
-```
+* Longest Substring Without Repeating
+* Minimum Window Substring
+* Container With Most Water
+* Move Zeroes
 
 ---
 
-# 🧠 THE PATTERN (MOST IMPORTANT PART)
+# 🔵 WEEK 4 — Linked List
 
-👉 Whenever you see:
+### 🎯 Focus:
 
-* Pair problems
-* Sum = target
-* Need fast lookup
+* Pointer manipulation
 
-🔥 Think:
+### 🧠 Learn:
 
-```
-HashMap → store value → lookup complement
-```
+* Fast & slow pointer
+* Reversal logic
 
----
+### 🔥 Problems:
 
-# 🧪 Step 3 — Dry Run (MANDATORY)
-
-Example:
-
-```
-nums = [2, 7, 11, 15], target = 9
-```
-
-| Step | num | complement | hashmap | action  |
-| ---- | --- | ---------- | ------- | ------- |
-| 1    | 2   | 7          | {}      | store 2 |
-| 2    | 7   | 2          | {2:0}   | FOUND   |
-
-👉 Answer = [0,1]
+* Reverse Linked List
+* Detect Cycle
+* Merge Two Lists
+* Remove Nth Node
 
 ---
 
-# 🧪 Step 4 — Your Tasks (DO THIS SERIOUSLY)
+# 🔵 WEEK 5 — Stack + Queue
 
-## Task 1:
+### 🎯 Focus:
 
-Solve Two Sum yourself (don’t copy)
+* LIFO / FIFO
+* Monotonic stack
 
----
+### 🧠 Learn:
 
-## Task 2:
+* Stack-based patterns
 
-Close code and explain:
+### 🔥 Problems:
 
-* Why brute force is slow?
-* Why HashMap works?
-
----
-
-## Task 3:
-
-Re-code from memory
+* Valid Parentheses
+* Daily Temperatures
+* Min Stack
+* Next Greater Element
 
 ---
 
-## Task 4 (MOST IMPORTANT 🔥):
+# 🔵 WEEK 6 — Binary Search ⭐
 
-Change input and test:
+### 🎯 Focus:
 
-```
-[3, 2, 4], target = 6
-[3, 3], target = 6
-```
+* Searching efficiently
+
+### 🧠 Learn:
+
+* Binary search on answer
+* Edge cases
+
+### 🔥 Problems:
+
+* Binary Search
+* Search in Rotated Array
+* First Bad Version
+* Peak Element
 
 ---
 
-# ⚠️ Mistakes You Must Avoid Today
+# 🌳 WEEK 7 — Trees Basics
 
-❌ Memorizing code <br>
-❌ Skipping dry run<br>
-❌ Not understanding “why complement works”
+### 🎯 Focus:
 
+* Traversals
+
+### 🧠 Learn:
+
+* DFS (recursive)
+* Tree structure
+
+### 🔥 Problems:
+
+* Max Depth
+* Same Tree
+* Inorder Traversal
+
+---
+
+# 🌳 WEEK 8 — Advanced Trees
+
+### 🎯 Focus:
+
+* Complex tree problems
+
+### 🧠 Learn:
+
+* BFS (level order)
+* Tree properties
+
+### 🔥 Problems:
+
+* Level Order Traversal
+* Lowest Common Ancestor
+* Diameter of Tree
+
+---
+
+# 🌐 WEEK 9 — Graphs ⭐ IMPORTANT
+
+### 🎯 Focus:
+
+* BFS + DFS
+
+### 🧠 Learn:
+
+* Graph representation
+* Cycle detection
+
+### 🔥 Problems:
+
+* Number of Islands
+* Clone Graph
+* Course Schedule
+
+---
+
+# 🔥 WEEK 10 — Backtracking
+
+### 🎯 Focus:
+
+* Decision trees
+
+### 🧠 Learn:
+
+* Recursion + choices
+
+### 🔥 Problems:
+
+* Subsets
+* Permutations
+* N-Queens
+
+---
+
+# 🔥 WEEK 11 — Heaps + Greedy
+
+### 🎯 Focus:
+
+* Priority queues
+
+### 🧠 Learn:
+
+* Heap operations
+* Greedy thinking
+
+### 🔥 Problems:
+
+* Kth Largest Element
+* Top K Frequent Elements
+* Task Scheduler
+
+---
+
+# 🔴 WEEK 12 — Dynamic Programming (DP) ⭐
+
+### 🎯 Focus:
+
+* Optimization problems
+
+### 🧠 Learn:
+
+* 1D DP
+* 2D DP basics
+
+### 🔥 Problems:
+
+* Climbing Stairs
+* Coin Change
+* Longest Increasing Subsequence
+
+---
+
+# 🧠 WEEKLY STRUCTURE (IMPORTANT)
+
+### 📅 6 Days Plan:
+
+* Day 1–2 → Learn + easy problems
+* Day 3–4 → Medium problems
+* Day 5 → Mixed practice
+* Day 6 → Revision + re-solve
+
+### 🛑 Day 7:
+
+* Rest OR mock test
+
+---
+
+# 🧪 AFTER WEEK 6 (START THIS)
+
+* Timed problems (30–40 min)
+* Start thinking out loud
+* Focus on clean code
+
+---
+
+# 📊 TARGET
+
+* Total Problems: **250–400**
+* By Week 12:
+
+  * You should solve medium easily
+  * Start touching hard problems
+
+---
+
+# ⚠️ REAL TALK
+
+* Weeks 1–3 → confusing
+* Weeks 4–6 → clarity
+* Weeks 7–9 → struggle again
+* Weeks 10–12 → breakthrough
+
+👉 This is NORMAL
+
+---
+
+# 💡 PRO TIP (GAME CHANGER)
+
+After solving a problem:
+
+* Re-solve next day WITHOUT seeing solution
+* Write pattern in notes
+
+👉 This is how toppers improve fast
