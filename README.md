@@ -1,293 +1,178 @@
-# 🚀 12-WEEK DSA ROADMAP
+# 📅 DAY 1 — Array Basics + Two Sum (Execution Plan)
+
+## 🎯 Today’s Target
+
+By the end of today, you must:
+
+* Understand **why brute force is bad**
+* Learn **HashMap thinking**
+* Solve **Two Sum without memorizing code**
 
 ---
 
-# 🟢 WEEK 1 — Arrays Basics
+# 🧠 Step 1 — Array Thinking (15–20 min)
 
-### 🎯 Focus:
+Before coding, fix your mindset:
 
-* Traversal
-* Min/Max
-* Prefix sum basics
+👉 Array = continuous memory + index-based access
+👉 Most problems = **loop + condition**
 
-### 🧠 Learn:
+### Practice mentally:
 
-* How arrays work internally
-* Time complexity (O(n), O(n²))
+Given:
 
-### 🔥 Problems:
+```
+[2, 7, 11, 15]
+```
 
-* Two Sum
-* Maximum Subarray
-* Best Time to Buy/Sell Stock
-* Contains Duplicate
+Think:
 
----
-
-# 🟢 WEEK 2 — Strings + Hashing
-
-### 🎯 Focus:
-
-* Frequency maps
-* Character-based problems
-
-### 🧠 Learn:
-
-* HashMap usage
-* Counting patterns
-
-### 🔥 Problems:
-
-* Valid Anagram
-* Group Anagrams
-* Longest Substring Without Repeating
-* First Unique Character
+* How do I access each element?
+* How do I compare elements?
 
 ---
 
-# 🟢 WEEK 3 — Two Pointers + Sliding Window ⭐
+# 🔥 Step 2 — Two Sum (Core Problem)
 
-### 🎯 Focus:
+### Problem:
 
-* Window expansion/shrinking
+Find 2 numbers such that:
 
-### 🧠 Learn:
-
-* When to use sliding window
-* Optimizing brute force
-
-### 🔥 Problems:
-
-* Longest Substring Without Repeating
-* Minimum Window Substring
-* Container With Most Water
-* Move Zeroes
+```
+nums[i] + nums[j] = target
+```
 
 ---
 
-# 🔵 WEEK 4 — Linked List
+## ❌ Brute Force Thinking (IMPORTANT)
 
-### 🎯 Focus:
+```python
+for i in range(n):
+    for j in range(i+1, n):
+        if nums[i] + nums[j] == target:
+            return [i, j]
+```
 
-* Pointer manipulation
+### ❗ Understand:
 
-### 🧠 Learn:
+* You are checking **every pair**
+* Time complexity = **O(n²)**
 
-* Fast & slow pointer
-* Reversal logic
-
-### 🔥 Problems:
-
-* Reverse Linked List
-* Detect Cycle
-* Merge Two Lists
-* Remove Nth Node
+👉 This is your **baseline thinking**
 
 ---
 
-# 🔵 WEEK 5 — Stack + Queue
+## ✅ Optimized Thinking (REAL LEARNING)
 
-### 🎯 Focus:
+### Key Idea:
 
-* LIFO / FIFO
-* Monotonic stack
+Instead of checking later…
 
-### 🧠 Learn:
-
-* Stack-based patterns
-
-### 🔥 Problems:
-
-* Valid Parentheses
-* Daily Temperatures
-* Min Stack
-* Next Greater Element
+👉 “Can I know the answer BEFORE I reach it?”
 
 ---
 
-# 🔵 WEEK 6 — Binary Search ⭐
+### 💡 Core Logic:
 
-### 🎯 Focus:
+For each number:
 
-* Searching efficiently
+```
+complement = target - current
+```
 
-### 🧠 Learn:
+👉 Check:
 
-* Binary search on answer
-* Edge cases
-
-### 🔥 Problems:
-
-* Binary Search
-* Search in Rotated Array
-* First Bad Version
-* Peak Element
+* “Have I already seen this complement?”
 
 ---
 
-# 🌳 WEEK 7 — Trees Basics
+## ✅ HashMap Solution
 
-### 🎯 Focus:
+```python
+def twoSum(nums, target):
+    hashmap = {}
 
-* Traversals
+    for i, num in enumerate(nums):
+        complement = target - num
 
-### 🧠 Learn:
+        if complement in hashmap:
+            return [hashmap[complement], i]
 
-* DFS (recursive)
-* Tree structure
-
-### 🔥 Problems:
-
-* Max Depth
-* Same Tree
-* Inorder Traversal
+        hashmap[num] = i
+```
 
 ---
 
-# 🌳 WEEK 8 — Advanced Trees
+# 🧠 THE PATTERN (MOST IMPORTANT PART)
 
-### 🎯 Focus:
+👉 Whenever you see:
 
-* Complex tree problems
+* Pair problems
+* Sum = target
+* Need fast lookup
 
-### 🧠 Learn:
+🔥 Think:
 
-* BFS (level order)
-* Tree properties
-
-### 🔥 Problems:
-
-* Level Order Traversal
-* Lowest Common Ancestor
-* Diameter of Tree
+```
+HashMap → store value → lookup complement
+```
 
 ---
 
-# 🌐 WEEK 9 — Graphs ⭐ IMPORTANT
+# 🧪 Step 3 — Dry Run (MANDATORY)
 
-### 🎯 Focus:
+Example:
 
-* BFS + DFS
+```
+nums = [2, 7, 11, 15], target = 9
+```
 
-### 🧠 Learn:
+| Step | num | complement | hashmap | action  |
+| ---- | --- | ---------- | ------- | ------- |
+| 1    | 2   | 7          | {}      | store 2 |
+| 2    | 7   | 2          | {2:0}   | FOUND   |
 
-* Graph representation
-* Cycle detection
-
-### 🔥 Problems:
-
-* Number of Islands
-* Clone Graph
-* Course Schedule
+👉 Answer = [0,1]
 
 ---
 
-# 🔥 WEEK 10 — Backtracking
+# 🧪 Step 4 — Your Tasks (DO THIS SERIOUSLY)
 
-### 🎯 Focus:
+## Task 1:
 
-* Decision trees
-
-### 🧠 Learn:
-
-* Recursion + choices
-
-### 🔥 Problems:
-
-* Subsets
-* Permutations
-* N-Queens
+Solve Two Sum yourself (don’t copy)
 
 ---
 
-# 🔥 WEEK 11 — Heaps + Greedy
+## Task 2:
 
-### 🎯 Focus:
+Close code and explain:
 
-* Priority queues
-
-### 🧠 Learn:
-
-* Heap operations
-* Greedy thinking
-
-### 🔥 Problems:
-
-* Kth Largest Element
-* Top K Frequent Elements
-* Task Scheduler
+* Why brute force is slow?
+* Why HashMap works?
 
 ---
 
-# 🔴 WEEK 12 — Dynamic Programming (DP) ⭐
+## Task 3:
 
-### 🎯 Focus:
-
-* Optimization problems
-
-### 🧠 Learn:
-
-* 1D DP
-* 2D DP basics
-
-### 🔥 Problems:
-
-* Climbing Stairs
-* Coin Change
-* Longest Increasing Subsequence
+Re-code from memory
 
 ---
 
-# 🧠 WEEKLY STRUCTURE (IMPORTANT)
+## Task 4 (MOST IMPORTANT 🔥):
 
-### 📅 6 Days Plan:
+Change input and test:
 
-* Day 1–2 → Learn + easy problems
-* Day 3–4 → Medium problems
-* Day 5 → Mixed practice
-* Day 6 → Revision + re-solve
-
-### 🛑 Day 7:
-
-* Rest OR mock test
+```
+[3, 2, 4], target = 6
+[3, 3], target = 6
+```
 
 ---
 
-# 🧪 AFTER WEEK 6 (START THIS)
+# ⚠️ Mistakes You Must Avoid Today
 
-* Timed problems (30–40 min)
-* Start thinking out loud
-* Focus on clean code
-
----
-
-# 📊 TARGET
-
-* Total Problems: **250–400**
-* By Week 12:
-
-  * You should solve medium easily
-  * Start touching hard problems
-
----
-
-# ⚠️ REAL TALK
-
-* Weeks 1–3 → confusing
-* Weeks 4–6 → clarity
-* Weeks 7–9 → struggle again
-* Weeks 10–12 → breakthrough
-
-👉 This is NORMAL
-
----
-
-# 💡 PRO TIP (GAME CHANGER)
-
-After solving a problem:
-
-* Re-solve next day WITHOUT seeing solution
-* Write pattern in notes
-
-👉 This is how toppers improve fast
+❌ Memorizing code <br>
+❌ Skipping dry run<br>
+❌ Not understanding “why complement works”
 
