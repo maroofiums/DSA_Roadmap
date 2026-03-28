@@ -4,18 +4,18 @@
 
 # 🟢 WEEK 1 — Arrays Basics
 
-### 🎯 Focus:
+### Focus:
 
 * Traversal
 * Min/Max
 * Prefix sum basics
 
-### 🧠 Learn:
+### Learn:
 
 * How arrays work internally
 * Time complexity (O(n), O(n²))
 
-### 🔥 Problems:
+### Problems:
 
 * Two Sum
 * Maximum Subarray
@@ -26,17 +26,17 @@
 
 # 🟢 WEEK 2 — Strings + Hashing
 
-### 🎯 Focus:
+### Focus:
 
 * Frequency maps
 * Character-based problems
 
-### 🧠 Learn:
+### Learn:
 
 * HashMap usage
 * Counting patterns
 
-### 🔥 Problems:
+### Problems:
 
 * Valid Anagram
 * Group Anagrams
@@ -47,16 +47,16 @@
 
 # 🟢 WEEK 3 — Two Pointers + Sliding Window ⭐
 
-### 🎯 Focus:
+### Focus:
 
 * Window expansion/shrinking
 
-### 🧠 Learn:
+### Learn:
 
 * When to use sliding window
 * Optimizing brute force
 
-### 🔥 Problems:
+### Problems:
 
 * Longest Substring Without Repeating
 * Minimum Window Substring
@@ -67,16 +67,16 @@
 
 # 🔵 WEEK 4 — Linked List
 
-### 🎯 Focus:
+### Focus:
 
 * Pointer manipulation
 
-### 🧠 Learn:
+### Learn:
 
 * Fast & slow pointer
 * Reversal logic
 
-### 🔥 Problems:
+### Problems:
 
 * Reverse Linked List
 * Detect Cycle
@@ -87,16 +87,16 @@
 
 # 🔵 WEEK 5 — Stack + Queue
 
-### 🎯 Focus:
+### Focus:
 
 * LIFO / FIFO
 * Monotonic stack
 
-### 🧠 Learn:
+### Learn:
 
 * Stack-based patterns
 
-### 🔥 Problems:
+### Problems:
 
 * Valid Parentheses
 * Daily Temperatures
@@ -107,16 +107,16 @@
 
 # 🔵 WEEK 6 — Binary Search ⭐
 
-### 🎯 Focus:
+### Focus:
 
 * Searching efficiently
 
-### 🧠 Learn:
+### Learn:
 
 * Binary search on answer
 * Edge cases
 
-### 🔥 Problems:
+### Problems:
 
 * Binary Search
 * Search in Rotated Array
@@ -127,16 +127,16 @@
 
 # 🌳 WEEK 7 — Trees Basics
 
-### 🎯 Focus:
+### Focus:
 
 * Traversals
 
-### 🧠 Learn:
+### Learn:
 
 * DFS (recursive)
 * Tree structure
 
-### 🔥 Problems:
+### Problems:
 
 * Max Depth
 * Same Tree
@@ -146,16 +146,16 @@
 
 # 🌳 WEEK 8 — Advanced Trees
 
-### 🎯 Focus:
+### Focus:
 
 * Complex tree problems
 
-### 🧠 Learn:
+### Learn:
 
 * BFS (level order)
 * Tree properties
 
-### 🔥 Problems:
+### Problems:
 
 * Level Order Traversal
 * Lowest Common Ancestor
@@ -165,16 +165,16 @@
 
 # 🌐 WEEK 9 — Graphs ⭐ IMPORTANT
 
-### 🎯 Focus:
+### Focus:
 
 * BFS + DFS
 
-### 🧠 Learn:
+### Learn:
 
 * Graph representation
 * Cycle detection
 
-### 🔥 Problems:
+### Problems:
 
 * Number of Islands
 * Clone Graph
@@ -182,17 +182,17 @@
 
 ---
 
-# 🔥 WEEK 10 — Backtracking
+# WEEK 10 — Backtracking
 
-### 🎯 Focus:
+### Focus:
 
 * Decision trees
 
-### 🧠 Learn:
+### Learn:
 
 * Recursion + choices
 
-### 🔥 Problems:
+### Problems:
 
 * Subsets
 * Permutations
@@ -200,18 +200,18 @@
 
 ---
 
-# 🔥 WEEK 11 — Heaps + Greedy
+# WEEK 11 — Heaps + Greedy
 
-### 🎯 Focus:
+### Focus:
 
 * Priority queues
 
-### 🧠 Learn:
+### Learn:
 
 * Heap operations
 * Greedy thinking
 
-### 🔥 Problems:
+### Problems:
 
 * Kth Largest Element
 * Top K Frequent Elements
@@ -221,16 +221,16 @@
 
 # 🔴 WEEK 12 — Dynamic Programming (DP) ⭐
 
-### 🎯 Focus:
+### Focus:
 
 * Optimization problems
 
-### 🧠 Learn:
+### Learn:
 
 * 1D DP
 * 2D DP basics
 
-### 🔥 Problems:
+### Problems:
 
 * Climbing Stairs
 * Coin Change
@@ -238,7 +238,7 @@
 
 ---
 
-# 🧠 WEEKLY STRUCTURE (IMPORTANT)
+# WEEKLY STRUCTURE (IMPORTANT)
 
 ### 📅 6 Days Plan:
 
@@ -253,7 +253,7 @@
 
 ---
 
-# 🧪 AFTER WEEK 6 (START THIS)
+#  AFTER WEEK 6 (START THIS)
 
 * Timed problems (30–40 min)
 * Start thinking out loud
@@ -261,7 +261,7 @@
 
 ---
 
-# 📊 TARGET
+# TARGET
 
 * Total Problems: **250–400**
 * By Week 12:
@@ -271,22 +271,13 @@
 
 ---
 
-# ⚠️ REAL TALK
+# REAL TALK
 
 * Weeks 1–3 → confusing
 * Weeks 4–6 → clarity
 * Weeks 7–9 → struggle again
 * Weeks 10–12 → breakthrough
 
-👉 This is NORMAL
+ This is NORMAL
 
 ---
-
-# 💡 PRO TIP (GAME CHANGER)
-
-After solving a problem:
-
-* Re-solve next day WITHOUT seeing solution
-* Write pattern in notes
-
-👉 This is how toppers improve fast
