@@ -2,7 +2,7 @@
 
 ---
 
-# 🟢 WEEK 1 — Arrays Basics
+# 🟢 WEEK 1 - Arrays Basics
 
 ### Focus:
 
@@ -24,7 +24,7 @@
 
 ---
 
-# 🟢 WEEK 2 — Strings + Hashing
+# 🟢 WEEK 2 - Strings + Hashing
 
 ### Focus:
 
@@ -45,7 +45,7 @@
 
 ---
 
-# 🟢 WEEK 3 — Two Pointers + Sliding Window ⭐
+# 🟢 WEEK 3 - Two Pointers + Sliding Window ⭐
 
 ### Focus:
 
@@ -65,7 +65,7 @@
 
 ---
 
-# 🔵 WEEK 4 — Linked List
+# 🔵 WEEK 4 - Linked List
 
 ### Focus:
 
@@ -85,7 +85,7 @@
 
 ---
 
-# 🔵 WEEK 5 — Stack + Queue
+# 🔵 WEEK 5 - Stack + Queue
 
 ### Focus:
 
@@ -105,7 +105,7 @@
 
 ---
 
-# 🔵 WEEK 6 — Binary Search ⭐
+# 🔵 WEEK 6 - Binary Search ⭐
 
 ### Focus:
 
@@ -125,7 +125,7 @@
 
 ---
 
-# 🌳 WEEK 7 — Trees Basics
+# 🌳 WEEK 7 - Trees Basics
 
 ### Focus:
 
@@ -144,7 +144,7 @@
 
 ---
 
-# 🌳 WEEK 8 — Advanced Trees
+# 🌳 WEEK 8 - Advanced Trees
 
 ### Focus:
 
@@ -163,7 +163,7 @@
 
 ---
 
-# 🌐 WEEK 9 — Graphs ⭐ IMPORTANT
+# 🌐 WEEK 9 - Graphs ⭐ IMPORTANT
 
 ### Focus:
 
@@ -182,7 +182,7 @@
 
 ---
 
-# WEEK 10 — Backtracking
+# WEEK 10 - Backtracking
 
 ### Focus:
 
@@ -200,7 +200,7 @@
 
 ---
 
-# WEEK 11 — Heaps + Greedy
+# WEEK 11 - Heaps + Greedy
 
 ### Focus:
 
@@ -219,7 +219,7 @@
 
 ---
 
-# 🔴 WEEK 12 — Dynamic Programming (DP) ⭐
+# 🔴 WEEK 12 - Dynamic Programming (DP) ⭐
 
 ### Focus:
 
@@ -242,8 +242,8 @@
 
 ### 📅 6 Days Plan:
 
-* Day 1–2 → Learn + easy problems
-* Day 3–4 → Medium problems
+* Day 1-2 → Learn + easy problems
+* Day 3-4 → Medium problems
 * Day 5 → Mixed practice
 * Day 6 → Revision + re-solve
 
