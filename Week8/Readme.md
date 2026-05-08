@@ -18,7 +18,7 @@ Build strong pattern recognition for tree problems and document solutions for Gi
 
 ---
 
-# Day 1 — BFS (Level Order Traversal)
+# Day 1 - BFS (Level Order Traversal)
 
 ## Concepts Learned
 
@@ -54,7 +54,7 @@ while queue:
 
 ---
 
-# Day 2 — Tree Height / Depth
+# Day 2 - Tree Height / Depth
 
 ## Concepts Learned
 
@@ -80,7 +80,7 @@ while queue:
 
 ---
 
-# Day 3 — Tree Properties
+# Day 3 - Tree Properties
 
 ## Concepts Learned
 
@@ -105,7 +105,7 @@ while queue:
 
 ---
 
-# Day 4 — Lowest Common Ancestor
+# Day 4 - Lowest Common Ancestor
 
 ## Concepts Learned
 
@@ -128,7 +128,7 @@ while queue:
 
 ---
 
-# Day 5 — Diameter of Binary Tree
+# Day 5 - Diameter of Binary Tree
 
 ## Concepts Learned
 
@@ -154,7 +154,7 @@ while queue:
 
 ---
 
-# Day 6 — Mixed Practice
+# Day 6 - Mixed Practice
 
 ## Problems Solved
 
@@ -169,7 +169,7 @@ Solve without pattern notes.
 
 ---
 
-# Day 7 — Test Day
+# Day 7 - Test Day
 
 ## Mock Test Rules
 
