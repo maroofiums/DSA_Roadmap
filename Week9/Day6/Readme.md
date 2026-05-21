@@ -169,6 +169,4 @@ There are **two correct ways** to solve this problem:
 * Alien Dictionary
 * Graph Valid Tree
 
-```
-
 ---
