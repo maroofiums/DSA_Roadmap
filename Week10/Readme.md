@@ -396,7 +396,9 @@ How to track:
 
 For diagonals:
 
+$$
 r+c\ \text{(positive diagonal)},\quad r-c\ \text{(negative diagonal)}
+$$
 
 ---
 
