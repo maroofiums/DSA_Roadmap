@@ -263,7 +263,6 @@
 
 # TARGET
 
-* Total Problems: **250–400**
 * By Week 12:
 
   * You should solve medium easily
