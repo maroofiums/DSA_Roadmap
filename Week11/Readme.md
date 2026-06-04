@@ -349,114 +349,140 @@ O(nlog n)
 
 ---
 
-# DAY 7 - Revision + Mixed Problems
+Good idea. Day 7 should be an assessment day to check whether you can solve the core heap + greedy patterns independently before moving forward.
 
-## Revision Topics
+# DAY 7 – TEST DAY (No Learning, Only Solving)
 
-Review:
+## Rules
 
-* Min heap
-* Max heap
-* Heapify
-* Top K pattern
-* Greedy intuition
-* Frequency maps
-
----
-
-# Mixed Practice
-
-## Heap Problems
-
-* Find Median from Data Stream
-* Merge K Sorted Lists
-* K Closest Elements
-
-## Greedy Problems
-
-* Jump Game
-* Gas Station
-* Partition Labels
+1. No videos
+2. No notes
+3. No solution watching for 30–45 minutes
+4. Write complexity analysis yourself
+5. Explain your approach aloud
 
 ---
 
-# END OF WEEK CHECKLIST
+# Problem 1 — Kth Largest Element in an Array
 
-You should now know:
+### Concepts Tested
 
-* Heap push/pop confidently
-* Min vs max heap
-* Top K patterns
-* Frequency-based heap problems
-* Greedy basics
-* Scheduling logic
+* Min Heap
+* Heap Size K
+* Heap Complexity
+* Top K Pattern
 
----
+### Expected Solution
 
-# IMPORTANT INTERVIEW PATTERNS THIS WEEK
+Heap of size `k`
 
-## Heap Patterns
+### Target Complexity
 
-1. Top K elements
-2. Frequency ranking
-3. Scheduling
-4. Streaming data
-5. Merge multiple sorted structures
+* Time: `O(n log k)`
+* Space: `O(k)`
 
----
+### Questions You Must Answer
 
-## Greedy Patterns
-
-1. Interval scheduling
-2. Local best choice
-3. Sorting + greedy
-4. Priority-based decisions
+1. Why is heap better than sorting?
+2. Why do we pop when heap size exceeds `k`?
+3. Why is `heap[0]` the answer?
 
 ---
 
-# RECOMMENDED DAILY STRUCTURE
+# Problem 2 — Top K Frequent Elements
 
-## 2–4 Hour Plan
+### Concepts Tested
 
-### Hour 1
+* HashMap
+* Frequency Counting
+* Heap + HashMap Combination
+* Tuple Ordering
 
-Theory + notes
+### Target Complexity
 
-### Hour 2
+* Time: `O(n log k)`
+* Space: `O(n)`
 
-Watch/understand examples
+### Questions You Must Answer
 
-### Hour 3
-
-Solve 2–3 problems
-
-### Hour 4
-
-Debug + complexity analysis + revision
+1. Why do we count frequencies first?
+2. Why store `(frequency, value)` in heap?
+3. Why is heap size maintained at `k`?
 
 ---
 
-# VERY IMPORTANT
+# Problem 3 — Task Scheduler
 
-For heaps:
+### Concepts Tested
 
-* Always ask:
+* Max Heap
+* Greedy Thinking
+* Queue + Heap
+* Simulation
 
-  * “Do I need smallest?”
-  * “Do I need largest?”
-  * “Do I only need top k?”
+### Target Complexity
 
-If yes → heap is probably useful.
+* Time: `O(n log n)`
+* Space: `O(n)`
 
-For greedy:
+### Questions You Must Answer
 
-* Ask:
+1. Why should the most frequent task run first?
+2. Why is a queue needed?
+3. How does cooling time work?
+4. When do idle slots occur?
 
-  * “Can I make the best local choice safely?”
+---
 
-That mindset becomes critical later in:
+# Test Scoring
 
-* Graph algorithms
-* AI optimization
-* System scheduling
-* Reinforcement learning foundations
+### Kth Largest Element
+
+* Correct Solution → 10 Marks
+* Complexity Explanation → 5 Marks
+
+**Total: 15 Marks**
+
+---
+
+### Top K Frequent Elements
+
+* Correct Solution → 10 Marks
+* Complexity Explanation → 5 Marks
+
+**Total: 15 Marks**
+
+---
+
+### Task Scheduler
+
+* Correct Solution → 15 Marks
+* Complexity Explanation → 5 Marks
+
+**Total: 20 Marks**
+
+---
+
+# Final Score
+
+| Score | Level                                    |
+| ----- | ---------------------------------------- |
+| 0–20  | Need Revision                            |
+| 21–35 | Basic Understanding                      |
+| 36–45 | Interview Ready for Medium Heap Problems |
+| 46–50 | Strong Heap + Greedy Foundation          |
+
+---
+
+# Week 11 Completion Checklist
+
+* <input type=checkbox checked > Understand Min Heap
+* <input type=checkbox checked> Understand Max Heap
+* <input type=checkbox checked> Know Heap Operations
+* <input type=checkbox checked> Know Heapify (`O(n)`)
+* <input type=checkbox checked> Solve Kth Largest Element
+* <input type=checkbox checked> Solve Top K Frequent Elements
+* <input type=checkbox checked> Solve Task Scheduler
+* <input type=checkbox checked> Explain Heap Complexities
+* <input type=checkbox checked> Understand Greedy Intuition
+* <input type=checkbox checked> Complete Test Day
