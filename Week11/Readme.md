@@ -349,8 +349,6 @@ O(nlog n)
 
 ---
 
-Good idea. Day 7 should be an assessment day to check whether you can solve the core heap + greedy patterns independently before moving forward.
-
 # DAY 7 – TEST DAY (No Learning, Only Solving)
 
 ## Rules
