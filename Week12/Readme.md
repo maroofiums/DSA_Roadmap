@@ -186,7 +186,6 @@ dp[i] = max(
 ## Practice
 
 1. House Robber
-2. House Robber II
 
 ---
 
